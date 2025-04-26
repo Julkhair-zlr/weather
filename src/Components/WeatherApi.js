@@ -23,7 +23,7 @@ const [forecastData, setForecastData] = React.useState([]);
               }
           });
           console.log(response.data);
-          return response;
+          return response.data;
         } catch (error) {
           console.log(error);
         }
